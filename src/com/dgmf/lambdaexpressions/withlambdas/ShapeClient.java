@@ -17,12 +17,19 @@ public class ShapeClient {
         square.draw();
 
         // Pass a Lambda Expression as a Method Parameter
+        // v1
         System.out.println("======= Pass a Lambda Expression as a Method " +
-                "Parameter =======");
+                "Parameter - v1 =======");
         print(circle);
         print(rectangle);
         print(square);
 
+        // v2
+        System.out.println("======= Pass a Lambda Expression as a Method " +
+                "Parameter - v2 =======");
+        print(() -> System.out.println("Circle Class : draw() Method"));
+        print(() -> System.out.println("Rectangle Class : draw() Method"));
+        print(() -> System.out.println("Square Class : draw() Method"));
     }
 
     // Pass a Lambda Expression as a Method Parameter
