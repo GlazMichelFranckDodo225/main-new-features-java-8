@@ -1,4 +1,4 @@
-package com.dgmf.subject1lambdaexpressions.withlambdas;
+package com.dgmf.subject1functionalinterfaces.withlambdas;
 
 // Functional Interface
 public interface Shape {

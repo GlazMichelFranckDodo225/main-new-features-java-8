@@ -1,4 +1,4 @@
-package com.dgmf.subject2functionalinterfaces;
+package com.dgmf.subject1functionalinterfaces;
 
 @FunctionalInterface
 public interface MyFuntionalInterface {

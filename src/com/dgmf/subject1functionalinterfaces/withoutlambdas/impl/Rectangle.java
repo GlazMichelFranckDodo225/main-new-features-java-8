@@ -1,6 +1,6 @@
-package com.dgmf.subject1lambdaexpressions.withoutlambdas.impl;
+package com.dgmf.subject1functionalinterfaces.withoutlambdas.impl;
 
-import com.dgmf.subject1lambdaexpressions.withoutlambdas.Shape;
+import com.dgmf.subject1functionalinterfaces.withoutlambdas.Shape;
 
 public class Rectangle implements Shape {
     @Override
