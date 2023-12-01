@@ -1,6 +1,6 @@
-package com.dgmf.lambdaexpressions.withoutlambdas.impl;
+package com.dgmf.subject1lambdaexpressions.withoutlambdas.impl;
 
-import com.dgmf.lambdaexpressions.withoutlambdas.Shape;
+import com.dgmf.subject1lambdaexpressions.withoutlambdas.Shape;
 
 public class Square implements Shape {
     @Override

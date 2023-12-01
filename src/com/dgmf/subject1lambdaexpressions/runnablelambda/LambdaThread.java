@@ -1,4 +1,4 @@
-package com.dgmf.lambdaexpressions.runnablelambda;
+package com.dgmf.subject1lambdaexpressions.runnablelambda;
 
 // "Runnable" is a Functional Interface itself
 public class LambdaThread implements Runnable{

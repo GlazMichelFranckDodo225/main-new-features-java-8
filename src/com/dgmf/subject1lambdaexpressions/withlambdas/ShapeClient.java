@@ -1,6 +1,6 @@
-package com.dgmf.lambdaexpressions.withlambdas;
+package com.dgmf.subject1lambdaexpressions.withlambdas;
 
-import com.dgmf.lambdaexpressions.withoutlambdas.Shape;
+import com.dgmf.subject1lambdaexpressions.withoutlambdas.Shape;
 
 public class ShapeClient {
     public static void main(String[] args) {

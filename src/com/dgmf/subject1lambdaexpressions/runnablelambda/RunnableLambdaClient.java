@@ -1,4 +1,4 @@
-package com.dgmf.lambdaexpressions.runnablelambda;
+package com.dgmf.subject1lambdaexpressions.runnablelambda;
 
 public class RunnableLambdaClient {
     public static void main(String[] args) {

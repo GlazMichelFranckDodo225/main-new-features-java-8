@@ -1,4 +1,4 @@
-package com.dgmf.lambdaexpressions.lambdasparemeters;
+package com.dgmf.subject1lambdaexpressions.lambdasparemeters;
 
 public class LambdaParametersClient {
     public static void main(String[] args) {
