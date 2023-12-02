@@ -23,9 +23,29 @@ public class MethodReferences {
                 MethodReferences::addition;
         System.out.println(additionMethodReference.apply(15, 35));
 
+        // 2. Using Method Reference to call an Instance Method of an Object
+        MethodReferences methodReferencesObject = new MethodReferences();
+
+        // Lambda Expression
+        Printable printableLambda = msg ->
+                methodReferencesObject.display(msg);
+
+        printableLambda.print("Hello World from Lambda Expression !");
+
+        // Method Reference
+        Printable printableMethodReference = methodReferencesObject::display;
+
+        printableMethodReference.print("Hello World from Method References !");
+
     }
 
     public static int addition(int a, int b) {
         return a + b;
+    }
+
+    public void display(String msg) {
+        msg = msg.toUpperCase();
+
+        System.out.println(msg);
     }
 }
