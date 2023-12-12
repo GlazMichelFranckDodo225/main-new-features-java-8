@@ -55,13 +55,16 @@ public class MethodReferences {
                 "REFERENCE FEATURE"));
 
         // Another example
-        String[] stringArray = {"A", "E", "I", "O", "U", "a", "e", "i", "o", "u"};
+        String[] stringArray1 = {"A", "E", "I", "O", "U", "a", "e", "i", "o", "u"};
+        String[] stringArray2 = {"A", "E", "I", "O", "U", "a", "e", "i", "o", "u"};
 
         // Lambda Expression
-        Arrays.sort(stringArray, (s1, s2) -> s1.compareToIgnoreCase(s2));
+        Arrays.sort(stringArray1, (s1, s2) -> s1.compareToIgnoreCase(s2));
+        System.out.println(Arrays.stream(stringArray1).toList());
 
         // Method Reference
-        Arrays.sort(stringArray, String::compareToIgnoreCase);
+        Arrays.sort(stringArray2, String::compareToIgnoreCase);
+        System.out.println(Arrays.stream(stringArray2).toList());
     }
 
     public static int addition(int a, int b) {
