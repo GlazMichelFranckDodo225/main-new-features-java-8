@@ -1,6 +1,6 @@
 package com.dgmf.subject2methodreferences;
 
-import java.util.Arrays;
+import java.util.*;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
@@ -65,6 +65,40 @@ public class MethodReferences {
         // Method Reference
         Arrays.sort(stringArray2, String::compareToIgnoreCase);
         System.out.println(Arrays.stream(stringArray2).toList());
+
+        // 4. Method Reference to call a Constructor
+        // To Convert a "List<String>" into a Set<String>
+
+        // Lambda Expression
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Banana");
+        fruits.add("Apple");
+        fruits.add("Mango");
+        fruits.add("Orange");
+        fruits.add("Apple");
+        fruits.add("Watermelon");
+        fruits.add("Orange");
+        fruits.add("Banana");
+
+        System.out.println(fruits);
+        Function<List<String>, Set<String>> setFunctionLambda =
+                fruitsList -> new HashSet<>(fruitsList);
+        System.out.println(setFunctionLambda.apply(fruits));
+
+        // Method Reference
+        List<String> shoes = new ArrayList<>();
+        shoes.add("Nike");
+        shoes.add("Puma");
+        shoes.add("Winston");
+        shoes.add("Nike");
+        shoes.add("Charles");
+        shoes.add("Adidas");
+        shoes.add("Puma");
+        shoes.add("Winston");
+        System.out.println(shoes);
+
+        Function<List<String>, Set<String>> setFunctionMethodReference = HashSet::new;
+        System.out.println(setFunctionMethodReference.apply(shoes));
     }
 
     public static int addition(int a, int b) {
