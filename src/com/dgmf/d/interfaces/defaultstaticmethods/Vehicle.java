@@ -1,4 +1,4 @@
-package com.dgmf.d.interfaces.defaultstaticmethod;
+package com.dgmf.d.interfaces.defaultstaticmethods;
 
 public interface Vehicle {
     String getBrand();
@@ -9,5 +9,8 @@ public interface Vehicle {
     }
     default String turnAlarmOff() {
         return "Turning Vehicle Alarm Off ...";
+    }
+    static String getCompany() {
+        return "BMW France";
     }
 }

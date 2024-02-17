@@ -1,6 +1,6 @@
-package com.dgmf.d.interfaces.defaultstaticmethod.impl;
+package com.dgmf.d.interfaces.defaultstaticmethods.impl;
 
-import com.dgmf.d.interfaces.defaultstaticmethod.Vehicle;
+import com.dgmf.d.interfaces.defaultstaticmethods.Vehicle;
 
 public class Car implements Vehicle {
     @Override
