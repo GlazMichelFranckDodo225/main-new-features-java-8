@@ -31,5 +31,8 @@ public class CreateStreamObjects {
         String[] array = {"John Doe", "Manuela De Lalorga", "Vixente Lizzarazu"};
         Stream<String> arrayStream = Arrays.stream(array);
         arrayStream.forEach(System.out::println);
+
+        // Stream API "filter()" Method ==> Search for a
+        // Good Example on the Web
     }
 }
