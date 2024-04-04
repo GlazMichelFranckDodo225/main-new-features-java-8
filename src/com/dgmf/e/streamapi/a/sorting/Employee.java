@@ -1,4 +1,4 @@
-package com.dgmf.e.streamapi.sorting;
+package com.dgmf.e.streamapi.a.sorting;
 
 public class Employee {
     private int id;

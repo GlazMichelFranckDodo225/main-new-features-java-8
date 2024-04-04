@@ -1,4 +1,4 @@
-package com.dgmf.e.streamapi.sorting;
+package com.dgmf.e.streamapi.a.sorting;
 
 import java.util.ArrayList;
 import java.util.Comparator;
